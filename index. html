@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Rent Surges in New York City Cause Issues</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+</head>
+
+<body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class='container'>
+        <h1>A Return to Normal For Who? Rent Surge Displaces Residents</h1>
+       <p>By <a href="https://github.com/imanisw">IMANI SEBRI</a></p>
+    </div>
+    <div class='container image'>
+        <img src='sage.JPG'/>
+        <p class= "caption"> Apartment building on 125th and Riverside Drive, where tenants are experiencing rent hikes (Imani Sebri).</p>
+    </div>
+    <div class='container'>
+        <p>Finding an apartment is a rite of passage for anyone above a certain age. But in New York, that takes on a meaning all its own. It’s an experience you either find yourself stronger for getting through or demoralized by the end of it.</p>
+
+        <p>And as with all things it has touched, the pandemic exacerbated that fact. Restaurants, bars, and museums, the crowning jewels of the city life were shut down overnight. And in 2020, rent plummeted as the city saw a mass exodus.</p>
+
+        <p>TK TK TK TK TK TK TK</p>
+
+    </div>
+    <div class='calc-container'>
+        <div class="container">
+            <h2>Comparing Rent Across the City</h2>
+            <p> Rent is increasing across the country, but New York City residents are being hit especially hard. Find out how your rent compares to other bororughs.</p>
+            <div class="calculator">
+                <div class="row">
+                    <div class='item'>
+                        <h3>Manhattan</h3>
+                        <img src="manhattan.png"/>
+                        <div class="qty_container">
+                            <div>
+                                <input type="number" name='qty' value="0" />
+                            </div>
+                            <div class="unit">
+                                bedroom(s)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="obed" data-price="2672"><strong>March 2021</strong>: $<span></span></div>
+                    <div class="2bed" data-price="3417"><strong> March 2022</strong>: $<span></span></div>
+                    <div class="3bed" data-price="5.99"><strong>Null</strong>: $<span></span></div>
+                </div>
+                <div class="row">
+                    <div class='itemq'>
+                        <h3>Queens</h3>
+                        <img src="queens.png"/>
+                        <div class="qty_container">
+                            <div>
+                                <input type="number" name='qty' value="0" />
+                            </div>
+                            <div class="unit">
+                                bedroom(s)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="peapod" data-price="2066"><strong>March 2021</strong>: $<span></span></div>
+                    <div class="freshdirect" data-price="2338"><strong>March 2022</strong>: $<span></span></div>
+                    <div class="amazon" data-price="4.49"><strong>Amazon</strong>: $<span></span></div>
+                </div>
+                <div class="row">
+                    <div class='itembx'>
+                        <h3>Bronx</h3>
+                        <img src="bronx.png"/>
+                        <div class="qty_container">
+                            <div>
+                                <input type="number" name='qty' value="0" />
+                            </div>
+                            <div class="unit">
+                                bedroom(s)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="peapod" data-price="1928"><strong>March 2021</strong>: $<span></span></div>
+                    <div class="freshdirect" data-price="7.99"><strong>FreshDirect</strong>: $<span></span></div>
+                    <div class="amazon" data-price="2071"><strong>March 2022</strong>: $<span></span></div>
+                </div>
+                <div class="row">
+                    <div class='itembk'>
+                        <h3>Brooklyn</h3>
+                        <img src="brooklyn.png"/>
+                        <div class="qty_container">
+                            <div>
+                                <input type="number" name='qty' value="0" />
+                            </div>
+                            <div class="unit">
+                                bedroom(s)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="peapod" data-price="2478"><strong>March 2021</strong>: $<span></span></div>
+                    <div class="freshdirect" data-price="3102"><strong>March 2022</strong>: $<span></span></div>
+                    <div class="amazon" data-price="1.38"><strong>Amazon</strong>: $<span></span></div>
+                </div>
+                
+
+                <div class="row total">
+                    <div class='item'>
+                        <h3>Total</h3>
+                    </div>
+                    <div class="peapod">Peapod: $<span></span></div>
+                    <div class="freshdirect">FreshDirect $<span></span></div>
+                    <div class="amazon">Amazon $<span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.calc-container -->
+    <div class='container'>
+
+        <p>The National Low Income Housing Coalition’s entire function is to advance federal policies regarding affordable housing, something Johnson recognizes is not a quick fix, in fact, it’s a longstanding systemic issue. “This was a problem even before the pandemic, that has been made worse by big failures on the part of the federal government to make the needed investments in deeply affordable housing,” Johnson said.</p>
+
+        <p> TK TK TK TK TK</p>
+           
+        </p>
+    </div>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
